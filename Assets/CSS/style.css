@@ -7,8 +7,14 @@ body {
     height: 100vh;
   }
   
-  div {
-    width: 100px;
-    height: 100px;
+  #rod {
+    position: relative;
+    margin-top: 50px;
+    margin-left: 150px;
+    width: 2px;
+    height: 150px;
+    border-radius: 5px;
+    transform-origin: 50% 0%;
+    transform: rotate(60deg);
     background-color: green;
   }
